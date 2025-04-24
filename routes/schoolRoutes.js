@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { addSchool, listSchools } = require('../controllers/schoolControllers.js');
-const { body } = require('express-validator');
+const { body,query } = require('express-validator');
 const validateSchool = [
   body('name')
     .notEmpty()
@@ -25,6 +25,15 @@ const validateSchool = [
     .withMessage('longitude must be float'),
 ]
 router.post('/addSchool', validateSchool, addSchool);
-router.get('/listSchools', listSchools);
+router.get('/listSchools',query('latitude')
+          .notEmpty()
+          .withMessage('latitude must not be empty please enter value')
+          .isFloat()
+          .withMessage('latitide must be float'),
+          query('longitude')
+          .notEmpty()
+          .withMessage('longitude must not be empty please enter value')
+          .isFloat()
+          .withMessage('longitude must be float'), listSchools);
 
 module.exports = router;
