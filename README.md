@@ -118,14 +118,6 @@ npm start
 | latitude   | FLOAT    | Latitude                    |
 | longitude  | FLOAT    | Longitude                   |
 
-### `user_coordinates`
-
-| Field      | Type     | Description                  |
-|------------|----------|------------------------------|
-| id         | INT      | Primary Key, Auto Increment   |
-| user_id    | INT      | Associated user ID            |
-| latitude   | FLOAT    | User latitude                 |
-| longitude  | FLOAT    | User longitude                |
 
 ---
 
