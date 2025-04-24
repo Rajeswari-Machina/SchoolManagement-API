@@ -1,0 +1,30 @@
+{
+  "name": "schoolmanagement-api",
+  "version": "1.0.0",
+  "description": "node js api for school management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajeswari-Machina/SchoolManagement-API.git"
+  },
+  "author": "rajeswariMachina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajeswari-Machina/SchoolManagement-API/issues"
+  },
+  "homepage": "https://github.com/Rajeswari-Machina/SchoolManagement-API#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "haversine": "^1.1.1",
+    "mysql2": "^3.14.0"
+  }
+}
