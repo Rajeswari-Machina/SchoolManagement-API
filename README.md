@@ -1,8 +1,8 @@
-# 🏫 School Management API
+#  School Management API
 
 A lightweight RESTful API built with **Node.js**, **Express**, and **MySQL** to manage school-related data including schools and getting schools based on proximity to user location.
 
-## 🧪 Postman Documentation
+##  Postman Documentation
 
 View full API documentation & try out requests using Postman:
 
@@ -13,7 +13,7 @@ View full API documentation & try out requests using Postman:
 Backend API live at : [API](https://schoolmanagement-api-production.up.railway.app/api/schools)
 
 
-## 🚀 Features
+##  Features
 
 - Add and list schools with location data (latitude, longitude)
 - Designed for scalability and cloud deployment (Railway)
@@ -21,7 +21,7 @@ Backend API live at : [API](https://schoolmanagement-api-production.up.railway.a
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Node.js**
 - **Express**
@@ -106,7 +106,7 @@ npm start
 
 ---
 
-## 🧱 Database Schema (MySQL)
+##  Database Schema (MySQL)
 
 ### `schools`
 
